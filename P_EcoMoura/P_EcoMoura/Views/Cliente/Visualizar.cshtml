@@ -1,0 +1,25 @@
+﻿@model P_EcoMoura.Models.Cliente
+
+<h3>Produto -> Visualizar</h3>
+:)
+
+Razor:
+
+@{
+    string nome = "Felipe Lisboa";
+}
+<h3>@nome</h3>
+<br />
+<h2>Cliente: </h2>
+<b>Código: </b>@Model.id<br />
+<b>Unidade: </b>@Model.idEmpresa<br />
+<b>Razão Social: </b>@Model.razaoSocial<br />
+<b>CNPJ: </b>@Model.cnpj<br />
+<b>Telefone: </b>@Model.telefone<br />
+<b>Celular: </b>@Model.celular<br />
+<b>Saldo BIN: </b>@Model.saldoBIN.ToString("C")<br />
+<b>Código Rota: </b>@Model.idRota<br />
+<b>Situação: </b>@Model.situacao<br />
+
+<br />
+Todos os direitos reservados &copy; @DateTime.Now.Year
